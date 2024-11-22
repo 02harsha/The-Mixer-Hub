@@ -1,0 +1,31 @@
+.container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: grid;
+    width: 35%;
+    gap: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;;
+    /* max-height: 500px; */
+}
+input{
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    
+}
+.submit1{
+    border: 0;
+    width: 100%;
+    background-color:#10B981;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+.submit1:hover{
+    background-color:#047857;
+    cursor: pointer;
+}

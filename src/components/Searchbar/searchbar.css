@@ -1,0 +1,23 @@
+.searchbar{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 50%;
+    padding: 13px;
+    border: 0.5px solid #12121293;
+}
+.submit{
+    width: 100px;
+    padding: 11px;
+    background-color: #10B981;
+    color: white;
+    border: 0;
+    font-size: large;
+}
+.submit:hover{
+    background-color: #047857;
+    cursor: pointer;
+}

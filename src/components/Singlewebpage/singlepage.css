@@ -1,0 +1,25 @@
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+span{
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.666);
+    border-radius: 5px;
+}
+img{
+    width: 400px;
+    height: auto;
+}
+.content{
+    max-width: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

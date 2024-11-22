@@ -1,0 +1,35 @@
+.card img{
+    width: 100%;
+    height: auto;
+    transition: all ease-in 3s;
+}
+.layout{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,300px);
+    gap: 20px;
+    transition: all ease-in 3s;
+}
+.seeDetails{
+    padding: 10px;
+    background-color: #10B981;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+}
+.card{
+    padding: 10px;
+    background-color: white;
+}
+.card input{
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.seeDetails:hover{
+    background-color: #047857;
+}
